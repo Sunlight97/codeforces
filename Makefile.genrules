@@ -1,0 +1,8 @@
+
+GCC ?= (g++)
+CFLAGS := -Wall --std=c++17
+
+
+%: %.cc
+	$(GCC) $(CFLAGS) -o $@ $^
+
