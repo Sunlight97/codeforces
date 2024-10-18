@@ -1,2 +1,5 @@
+# env dep files
+.DS_Store
 
+# temp files
 a.out
