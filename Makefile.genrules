@@ -3,6 +3,6 @@ GCC ?= (g++)
 CFLAGS := -Wall --std=c++17
 
 
-%: %.cc
+%: %.cpp
 	$(GCC) $(CFLAGS) -o $@ $^
 
